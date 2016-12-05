@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: DemoFAQRR
+  host: DemoFAQRR
+  disk_quota: 1024M
+  services:
+  - Availability Monitoring-nx
+  - Conversation-fa
+  - Retrieve and Rank-0e
+  - Speech To Text-1g
